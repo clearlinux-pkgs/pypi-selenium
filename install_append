@@ -1,0 +1,3 @@
+sitedir=$(python -c "import sys; print(sys.path[-1])")
+rm -fv %{buildroot}/$sitedir/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so
+rm -fv %{buildroot}/$sitedir/selenium/webdriver/firefox/x86/x_ignore_nofocus.so
