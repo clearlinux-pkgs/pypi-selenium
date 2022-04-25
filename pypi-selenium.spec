@@ -4,7 +4,7 @@
 #
 Name     : pypi-selenium
 Version  : 3.141.0
-Release  : 69
+Release  : 70
 URL      : https://files.pythonhosted.org/packages/ed/9c/9030520bf6ff0b4c98988448a93c04fcbd5b13cd9520074d8ed53569ccfe/selenium-3.141.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ed/9c/9030520bf6ff0b4c98988448a93c04fcbd5b13cd9520074d8ed53569ccfe/selenium-3.141.0.tar.gz
 Summary  : Python bindings for Selenium
@@ -14,9 +14,6 @@ Requires: pypi-selenium-license = %{version}-%{release}
 Requires: pypi-selenium-python = %{version}-%{release}
 Requires: pypi-selenium-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: selenium
-Provides: selenium-python
-Provides: selenium-python3
 BuildRequires : pypi(urllib3)
 
 %description
@@ -71,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641496524
+export SOURCE_DATE_EPOCH=1650914928
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
