@@ -1,5 +1,5 @@
 PKG_NAME := pypi-selenium
-URL = https://files.pythonhosted.org/packages/db/f6/5c1251e5e52fa41b1f7e3add82ab7332ed60eff72cb4efc71be85fde77ef/selenium-4.8.3.tar.gz
+URL = https://files.pythonhosted.org/packages/f6/35/3c910146da7f0f96602bec4463727f312f0c838220f0725232674b242df5/selenium-4.9.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
