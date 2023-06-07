@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-selenium
-Version  : 4.9.1
-Release  : 85
-URL      : https://files.pythonhosted.org/packages/fd/e2/0e5bee6762a7bf7852b47a79c5b12f9e526e6962958dbb9719fa490ba24c/selenium-4.9.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fd/e2/0e5bee6762a7bf7852b47a79c5b12f9e526e6962958dbb9719fa490ba24c/selenium-4.9.1.tar.gz
+Version  : 4.10.0
+Release  : 86
+URL      : https://files.pythonhosted.org/packages/86/d3/7fd6820e441550a4d0dae621c02f75339c6fafd98352f2727dd68e6e4cda/selenium-4.10.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/86/d3/7fd6820e441550a4d0dae621c02f75339c6fafd98352f2727dd68e6e4cda/selenium-4.10.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -49,10 +49,10 @@ python3 components for the pypi-selenium package.
 
 
 %prep
-%setup -q -n selenium-4.9.1
-cd %{_builddir}/selenium-4.9.1
+%setup -q -n selenium-4.10.0
+cd %{_builddir}/selenium-4.10.0
 pushd ..
-cp -a selenium-4.9.1 buildavx2
+cp -a selenium-4.10.0 buildavx2
 popd
 
 %build
@@ -60,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683560117
+export SOURCE_DATE_EPOCH=1686176857
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
