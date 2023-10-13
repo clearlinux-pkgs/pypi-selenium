@@ -5,7 +5,7 @@
 #
 Name     : pypi-selenium
 Version  : 4.14.0
-Release  : 91
+Release  : 92
 URL      : https://files.pythonhosted.org/packages/0b/9a/7d71270c718d5f509cecda822f8c3ff39b2696fc8036f16b5d9b541b7940/selenium-4.14.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/9a/7d71270c718d5f509cecda822f8c3ff39b2696fc8036f16b5d9b541b7940/selenium-4.14.0.tar.gz
 Summary  : No detailed summary available
