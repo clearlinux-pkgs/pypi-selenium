@@ -6,10 +6,10 @@
 # autospec commit: 250a666
 #
 Name     : pypi-selenium
-Version  : 4.15.1
-Release  : 94
-URL      : https://files.pythonhosted.org/packages/dd/93/18ee9bffc257fff639f182d4f7f9d6f38467babde9e954b906c79f201a89/selenium-4.15.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/dd/93/18ee9bffc257fff639f182d4f7f9d6f38467babde9e954b906c79f201a89/selenium-4.15.1.tar.gz
+Version  : 4.15.2
+Release  : 95
+URL      : https://files.pythonhosted.org/packages/04/44/e86a333a57dd81739126f78c73f2243af2bfb728787a7c66046eb923c02e/selenium-4.15.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/04/44/e86a333a57dd81739126f78c73f2243af2bfb728787a7c66046eb923c02e/selenium-4.15.2.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -51,10 +51,10 @@ python3 components for the pypi-selenium package.
 
 
 %prep
-%setup -q -n selenium-4.15.1
-cd %{_builddir}/selenium-4.15.1
+%setup -q -n selenium-4.15.2
+cd %{_builddir}/selenium-4.15.2
 pushd ..
-cp -a selenium-4.15.1 buildavx2
+cp -a selenium-4.15.2 buildavx2
 popd
 
 %build
@@ -62,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698962960
+export SOURCE_DATE_EPOCH=1699286165
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
