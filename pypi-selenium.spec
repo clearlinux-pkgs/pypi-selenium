@@ -7,7 +7,7 @@
 #
 Name     : pypi-selenium
 Version  : 4.16.0
-Release  : 97
+Release  : 98
 URL      : https://files.pythonhosted.org/packages/16/fd/a0ef793383077dd6296e4637acc82d1e9893e9a49a47f56e96996909e427/selenium-4.16.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/16/fd/a0ef793383077dd6296e4637acc82d1e9893e9a49a47f56e96996909e427/selenium-4.16.0.tar.gz
 Summary  : No detailed summary available
