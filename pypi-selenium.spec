@@ -7,7 +7,7 @@
 #
 Name     : pypi-selenium
 Version  : 4.22.0
-Release  : 106
+Release  : 107
 URL      : https://files.pythonhosted.org/packages/04/93/fe0473c381dddce4db9527cf442d5949460fab4a92713fb5984386054323/selenium-4.22.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/04/93/fe0473c381dddce4db9527cf442d5949460fab4a92713fb5984386054323/selenium-4.22.0.tar.gz
 Summary  : Official Python bindings for Selenium WebDriver
